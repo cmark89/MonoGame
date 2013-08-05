@@ -33,7 +33,7 @@ namespace Microsoft.Xna.Framework
     /// <summary>
     /// Describe a 32-bit packed color.
     /// </summary>
-    [DataContract]
+    [DataContract][Serializable]
     public struct Color : IEquatable<Color>
     {
 	// ARGB

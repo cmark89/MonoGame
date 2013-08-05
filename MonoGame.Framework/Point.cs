@@ -29,7 +29,7 @@ using System.Runtime.Serialization;
 
 namespace Microsoft.Xna.Framework
 {
-    [DataContract]
+    [DataContract][Serializable]
     public struct Point : IEquatable<Point>
     {
         #region Private Fields
